@@ -7,11 +7,11 @@ labels: compatibility
 
 ## Platform and Version
 
-Example: Codex app version, Claude environment, Hermes version, OpenClaw version
+Example: Codex app version, Claude environment, ChatGPT environment, Hermes version, OpenClaw version
 
 ## Skill Version
 
-`0.2.0`
+`0.2.1`
 
 ## Installation Method
 

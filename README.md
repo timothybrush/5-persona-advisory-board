@@ -10,7 +10,54 @@ Built for founders, consultants, operators, and AI power users making high-lever
 
 ## Quick Start
 
-Install or copy `SKILL.md` into the skills folder for your AI environment.
+Choose the path that matches how you use AI tools.
+
+Portable skill key: `5-persona-advisory-board`.
+
+### Regular Claude User
+
+No terminal required.
+
+1. Open Claude.
+2. Create a new Project.
+3. Name it `5 Persona Advisory Board`.
+4. Open Project Instructions or Custom Instructions.
+5. Paste the full contents of [`SKILL.md`](SKILL.md).
+6. Start a new chat inside that Project.
+7. Give it an important decision.
+
+### Regular ChatGPT User
+
+No terminal required.
+
+Use one of these paths:
+
+- Paste the full contents of [`SKILL.md`](SKILL.md) into a ChatGPT Project instruction area.
+- Paste it into Custom GPT instructions if you are making a reusable GPT.
+- Paste it at the top of a normal ChatGPT chat, then provide your decision.
+
+Then use:
+
+```text
+Use the 5 Persona Advisory Board on this decision:
+
+[paste decision here]
+```
+
+### Agent User
+
+If you use ChatGPT Codex, Claude Code, Codex, Hermes, OpenClaw, or another coding agent, give your agent this:
+
+```text
+Install this skill from GitHub:
+https://github.com/harryvondiesel-web/5-persona-advisory-board
+
+Use the portable skill key: 5-persona-advisory-board.
+
+After installing, start a fresh session and run 5 Persona Advisory Board on the decision I provide.
+```
+
+### Terminal Install
 
 Codex:
 
@@ -26,7 +73,7 @@ mkdir -p ~/.hermes/skills/productivity/5-persona-advisory-board
 cp SKILL.md ~/.hermes/skills/productivity/5-persona-advisory-board/SKILL.md
 ```
 
-Claude and OpenClaw: see [Installation Notes](#installation-notes).
+OpenClaw: see [Installation Notes](#installation-notes).
 
 Use this prompt:
 
@@ -95,12 +142,15 @@ The Future Self lens is your own future self, not any named person. The Product 
 
 ## Compatibility
 
-Tested on 2026-07-24 with skill version `0.2.0`.
+Current public version: `0.2.1`.
+
+Core behavior tested on 2026-07-24 with skill version `0.2.0`.
 OpenClaw status updated on 2026-07-28 after current OpenClaw behavior testing.
 
 | Platform | Status | Notes |
 | --- | --- | --- |
 | Claude | Supported | Behavior validated before packaging. |
+| ChatGPT | Expected | Paste `SKILL.md` into a Project, Custom GPT, or normal chat context. |
 | Codex | Supported | Installed at `~/.codex/skills/5-persona-advisory-board/SKILL.md`; full-context and interview-first tests passed. |
 | Hermes | Supported | Installed at `~/.hermes/skills/productivity/5-persona-advisory-board/SKILL.md`; full-context and interview-first tests passed. |
 | OpenClaw | Supported | Current OpenClaw behavior validated on 2026-07-28; treat on equal footing with Claude, Codex, and Hermes for supported skill use. |
@@ -112,6 +162,10 @@ Compatibility can decay as platforms change.
 ### Claude
 
 Create a Claude project or custom instruction set for the skill, then paste the full contents of `SKILL.md` into the project instructions/custom skill area. Start a fresh Claude conversation after adding it.
+
+### ChatGPT
+
+Paste the full contents of `SKILL.md` into a ChatGPT Project, Custom GPT instructions, or the top of a normal chat. Then provide an important decision and ask ChatGPT to use the 5 Persona Advisory Board.
 
 ### Codex
 
@@ -137,7 +191,7 @@ Start a fresh Hermes session if the skill index was cached before install.
 
 ### OpenClaw
 
-OpenClaw support is tested and supported for skill version `0.2.0`.
+OpenClaw support is tested and supported for the `0.2.x` workflow. Current package version: `0.2.1`.
 
 Current OpenClaw behavior was validated on 2026-07-28. OpenClaw should be treated on equal footing with Claude, Codex, and Hermes for this skill.
 

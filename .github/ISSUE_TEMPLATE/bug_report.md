@@ -7,11 +7,11 @@ labels: bug
 
 ## Skill Version
 
-`0.2.0`
+`0.2.1`
 
 ## Platform
 
-Example: Claude, Codex, Hermes, OpenClaw
+Example: Claude, ChatGPT, Codex, Hermes, OpenClaw
 
 ## Installation Method
 

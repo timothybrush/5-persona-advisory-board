@@ -1,7 +1,7 @@
 ---
 name: "5-persona-advisory-board"
 description: "Run a 5 Persona Advisory Board review, board review, strategic decision stress-test, offer critique, risk check, or pricing/timing/positioning decision review."
-version: "0.2.0"
+version: "0.2.1"
 license: "MIT"
 ---
 
@@ -9,7 +9,7 @@ license: "MIT"
 
 Interview first. Stress-test with five strategic lenses. Decide with clarity.
 
-Version: 0.2.0
+Version: 0.2.1
 License: MIT
 
 ## Purpose

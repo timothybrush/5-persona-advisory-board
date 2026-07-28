@@ -11,7 +11,7 @@ Example: launch, pricing, hiring, pivot, client risk, market entry
 
 ## Skill Version and Platform
 
-Example: `0.2.0` on Codex
+Example: `0.2.1` on Codex
 
 ## What Felt Weak?
 
