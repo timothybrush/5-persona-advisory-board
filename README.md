@@ -139,9 +139,9 @@ Start a fresh Hermes session if the skill index was cached before install.
 
 OpenClaw support is tested and supported for skill version `0.2.0`.
 
-Current OpenClaw behavior was validated on 2026-07-28 and should be treated on equal footing with Claude, Codex, and Hermes for this skill.
+Current OpenClaw behavior was validated on 2026-07-28. OpenClaw should be treated on equal footing with Claude, Codex, and Hermes for this skill.
 
-To test your own OpenClaw setup, paste the full contents of `SKILL.md` into your OpenClaw skill/context location and run the checks in [docs/compatibility-test-checklist.md](docs/compatibility-test-checklist.md).
+For independent verification, use the same shared checks in [docs/compatibility-test-checklist.md](docs/compatibility-test-checklist.md).
 
 ## Example Output
 
