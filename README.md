@@ -96,13 +96,14 @@ The Future Self lens is your own future self, not any named person. The Product 
 ## Compatibility
 
 Tested on 2026-07-24 with skill version `0.2.0`.
+OpenClaw status updated on 2026-07-28 after current OpenClaw behavior testing.
 
 | Platform | Status | Notes |
 | --- | --- | --- |
 | Claude | Supported | Behavior validated before packaging. |
 | Codex | Supported | Installed at `~/.codex/skills/5-persona-advisory-board/SKILL.md`; full-context and interview-first tests passed. |
 | Hermes | Supported | Installed at `~/.hermes/skills/productivity/5-persona-advisory-board/SKILL.md`; full-context and interview-first tests passed. |
-| OpenClaw | Experimental | Full-context board output tested successfully on current local version. Thin-context interview-first behavior needs retest after OpenClaw update. |
+| OpenClaw | Supported | Current OpenClaw behavior validated on 2026-07-28; treat on equal footing with Claude, Codex, and Hermes for supported skill use. |
 
 Compatibility can decay as platforms change.
 
@@ -136,11 +137,11 @@ Start a fresh Hermes session if the skill index was cached before install.
 
 ### OpenClaw
 
-OpenClaw support is experimental in skill version `0.2.0`.
+OpenClaw support is tested and supported for skill version `0.2.0`.
 
-The skill produced good full-context board output in the current local OpenClaw setup, but thin-context interview-first behavior needs retest after OpenClaw is updated.
+Current OpenClaw behavior was validated on 2026-07-28 and should be treated on equal footing with Claude, Codex, and Hermes for this skill.
 
-To test it, paste the full contents of `SKILL.md` into your OpenClaw skill/context location and run the two checks in [docs/compatibility-test-checklist.md](docs/compatibility-test-checklist.md).
+To test your own OpenClaw setup, paste the full contents of `SKILL.md` into your OpenClaw skill/context location and run the checks in [docs/compatibility-test-checklist.md](docs/compatibility-test-checklist.md).
 
 ## Example Output
 
